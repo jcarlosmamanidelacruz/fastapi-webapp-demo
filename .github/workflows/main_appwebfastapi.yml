@@ -58,4 +58,4 @@ jobs:
         with:
           app-name: 'appwebfastapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_821A9E03F1AF43B19DB5B4AE7F7AB141 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6D51E79DEA254027846B5A72A06498B7 }}
