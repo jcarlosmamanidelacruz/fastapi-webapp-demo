@@ -8,5 +8,5 @@ pywhatkit
 smsmobileapi
 psycopg2
 requests
-BeautifulSoup
+BeautifulSoup4
 bs4
