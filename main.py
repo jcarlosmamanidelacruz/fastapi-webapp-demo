@@ -5,11 +5,6 @@ from envio_msj import enviar_mensaje
 from usuarios import UsuarioIn, registrar_usuario, activar_usuario, reenviar_codigo
 app = FastAPI()
 
-
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
-
 @app.get("/consulta/soat/{placa}")
 def consultar_soatvigente(placa: str):
     resultado = consultar_soat(placa.upper().strip())
