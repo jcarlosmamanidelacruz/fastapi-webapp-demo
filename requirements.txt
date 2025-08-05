@@ -4,7 +4,9 @@ selenium
 python-dotenv
 anticaptchaofficial
 2captcha-python
-anticaptchaofficial
 pywhatkit
 smsmobileapi
 psycopg2
+requests
+BeautifulSoup
+bs4
